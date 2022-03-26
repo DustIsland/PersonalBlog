@@ -18,6 +18,7 @@
   "homepage": "https://github.com/DustIsland/PersonalBlog#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mysql": "^2.18.1"
+    "mysql": "^2.16.0",
+    "svg-captcha": "^1.4.0"
   }
 }
