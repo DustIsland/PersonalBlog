@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="./js/axios.js"></script>
+    <script src="./js/lb_img.js"></script>
 </head>
 <body>
 <header class="header">
@@ -30,7 +31,9 @@
             <span>每日一句</span>
             <p v-html="getContent"></p>
         </div>
-        <div class="img"><img style="width: 100%;border-radius: 20px;box-shadow: 10px 15px 10px #888888 " src="./img/pc.jpg"></div>
+        <div class="lunbo">
+            <img id="lunbo_img" src="./img/img3.jpg" >
+        </div>
         <div class="article_list" id="article_list">
             <div class="article" v-for="article in articleList">
                 <a v-bind:href="article.link" class="article_title">{{article.title}}</a>
