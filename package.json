@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DustIsland/PersonalBlog#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "express": "^4.17.3",
     "mysql": "^2.16.0",
     "svg-captcha": "^1.4.0"
